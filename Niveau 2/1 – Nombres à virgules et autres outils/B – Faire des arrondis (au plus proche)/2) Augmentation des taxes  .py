@@ -1,0 +1,6 @@
+a=float(input())
+b=float(input())
+c=float(input())
+d=(100*c)/(100+a)
+e=round(((d*(100+b))/100),2)
+print(e)
