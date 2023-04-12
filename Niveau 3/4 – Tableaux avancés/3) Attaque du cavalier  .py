@@ -1,8 +1,8 @@
 liste=[list(input().split())for i in range(8)]
-liste.append(["000000000000"])
-liste.append(["000000000000"])
-liste.insert(0,["000000000000"])
-liste.insert(0,["000000000000"])
+liste.append(["0"*12])
+liste.append(["0"*12])
+liste.insert(0,["0"*12])
+liste.insert(0,["0"*12])
 for i in range(2,10):
     b=liste[i][0]
     liste[i][0]="00"+b+"00"
