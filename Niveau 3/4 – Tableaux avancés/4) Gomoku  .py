@@ -20,3 +20,4 @@ def gomoku(n,grille) :
 n=int(input())
 grille=[list(map(int,input().split())) for i in range(n)]
 print(gomoku(n,grille))
+
