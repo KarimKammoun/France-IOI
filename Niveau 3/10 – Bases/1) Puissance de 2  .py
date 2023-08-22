@@ -5,4 +5,4 @@ def main():
         puissance <<= 1
     puissance >>= 1
     print(puissance)
-main()
+main() 
