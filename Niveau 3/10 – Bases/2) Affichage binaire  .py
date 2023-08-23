@@ -10,4 +10,4 @@ def main():
     for x in binaire[::-1]:
         print(x, end="")
     print()
-main()
+main() 
