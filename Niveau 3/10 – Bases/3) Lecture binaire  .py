@@ -6,4 +6,4 @@ def main():
         if bit == '1':
             n += 1
     print(n)
-main()
+main() 
